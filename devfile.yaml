@@ -17,7 +17,7 @@ parent:
 components:
   - name: outerloop-build
     image:
-      imageName: nodejs-image:latest
+      imageName: nodejs-image-mi2:latest
       dockerfile:
         uri: Dockerfile
         buildContext: .
